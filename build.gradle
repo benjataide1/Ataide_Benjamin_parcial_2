@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.tp'
+version = '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'com.tp.jpa.Main'
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Hibernate ORM (implementacion de JPA)
+    implementation 'org.hibernate.orm:hibernate-core:6.4.4.Final'
+
+    // MySQL Driver
+    implementation 'com.mysql:mysql-connector-j:8.3.0'
+
+    // Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.46'
+    annotationProcessor 'org.projectlombok:lombok:1.18.46'
+}
