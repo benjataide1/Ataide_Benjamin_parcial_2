@@ -105,6 +105,9 @@ O directamente desde IntelliJ IDEA ejecutando la clase `Main.java`.
 
 ---
 
+## Entrega
+- Link video: https://youtu.be/A5c8P_ONrEY
+
 ## Autor
 
 Benjamín Ataide - Programación III - UTN
